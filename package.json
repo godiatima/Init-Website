@@ -1,0 +1,13 @@
+{
+  "name": "Init",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio",
+  "main": "index.js",
+  "homepage": "https://godiatima.github.io/Init-Website",
+  "scripts": {
+    "sass": "node-sass  -w scss/ -o init/dist/",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Godfrey Atima",
+  "license": "ISC"
+}
